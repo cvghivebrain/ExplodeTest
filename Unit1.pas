@@ -57,7 +57,6 @@ begin
     if n < 0 then s := AnsiReverseString(s); // Un-reverse string if negative.
     result := s;
     end;
-
 end;
 
 procedure TForm1.btnGoClick(Sender: TObject);
