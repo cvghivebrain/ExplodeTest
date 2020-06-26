@@ -46,7 +46,7 @@ begin
       begin
       d := AnsiReverseString(d);
       s := AnsiReverseString(s)+d; // Reverse string for negative.
-      n2 := (n*-1)-1;
+      n2 := Abs(n)-1;
       end;
     while n2 > 0 do
       begin
